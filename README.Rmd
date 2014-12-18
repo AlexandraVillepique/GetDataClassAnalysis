@@ -1,0 +1,52 @@
+---
+title: "Get Data Assignment"
+author: "AleksandraVillepique"
+date: "December 17, 2014"
+output:
+  html_document:
+    number_sections: yes
+    theme: journal
+---
+
+#Code#
+
+Code reads in two differend data files, the names of the colums contained in separate file and then process the datasets according to the task, preserving only variables that contain averaged values. 
+Due to computing constrains, only after both datasets were processes, merging was performed and resulting file saved. If you have computer with larger working memory, feel free first to merge and then separate colums that have average values. 
+
+#Variables#
+
+These signals were used to estimate variables of the feature vector for each pattern:  
+'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+
+tBodyAcc-XYZ
+tGravityAcc-XYZ
+tBodyAccJerk-XYZ
+tBodyGyro-XYZ
+tBodyGyroJerk-XYZ
+tBodyAccMag
+tGravityAccMag
+tBodyAccJerkMag
+tBodyGyroMag
+tBodyGyroJerkMag
+fBodyAcc-XYZ
+fBodyAccJerk-XYZ
+fBodyGyro-XYZ
+fBodyAccMag
+fBodyAccJerkMag
+fBodyGyroMag
+fBodyGyroJerkMag
+
+From these signals Average value was estimated using:
+
+mean(): Mean value
+
+Resulting in the names of varialbes as:
+
+1 tBodyAcc-mean()-X
+2 tBodyAcc-mean()-Y
+3 tBodyAcc-mean()-Z
+
+etc. 
+
+
+
